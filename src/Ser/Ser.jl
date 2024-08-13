@@ -16,6 +16,9 @@ using .SerJson
 include("SerQuery.jl")
 using .SerQuery
 
+include("SerRowBinary.jl")
+using .SerRowBinary
+
 include("SerToml.jl")
 using .SerToml
 

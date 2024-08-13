@@ -98,6 +98,9 @@ using .DeToml
 include("DeQuery.jl")
 using .DeQuery
 
+include("DeRowbinary.jl")
+using .DeRowbinary
+
 include("DeCsv.jl")
 using .DeCsv
 

@@ -17,3 +17,6 @@ using .ParXml
 
 include("ParYaml.jl")
 using .ParYaml
+
+include("ParRowbinary.jl")
+using .ParRowbinary
