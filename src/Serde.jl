@@ -3,11 +3,16 @@ module Serde
 function deser end
 function parse_value end
 
+function to_rowbinary end
+function deser_rowbinary end
+function parse_rowbinary end
+
 # Ser
 export to_csv,
     to_json,
     to_pretty_json,
     to_query,
+    to_rowbinary,
     to_toml,
     to_xml,
     to_yaml
@@ -16,6 +21,7 @@ export to_csv,
 export deser_csv,
     deser_json,
     deser_query,
+    deser_rowbinary,
     deser_toml,
     deser_xml,
     deser_yaml
@@ -24,6 +30,7 @@ export deser_csv,
 export parse_csv,
     parse_json,
     parse_query,
+    parse_rowbinary,
     parse_toml,
     parse_xml,
     parse_yaml
